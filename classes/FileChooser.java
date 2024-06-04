@@ -110,7 +110,7 @@ public class FileChooser
          URL classURL = currClass.getResource("FileChooser.class");
         // URL fileURL = new URL(classURL,"../images/");
         //directory = fileURL.getPath();
-        directory = "C:/Users/student/Downloads/pixLab-20240529T165612Z-001/pixLab/images/";
+        directory = "C:/Users/student/Documents/pixLab/images/";
         dirFile = new File(directory);
         if (dirFile.exists()) {
           //setMediaPath(directory);
